@@ -11,4 +11,5 @@ for i in line field2.split("\n"):
    if feilds:
       prefix = fields[1] 
       as_path = fields[5:-1]
-      print
+      as_path = "".join(as_path)
+      print "{} {}
